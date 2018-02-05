@@ -135,3 +135,5 @@ badgecreatr::badgeplacer(location = ".", status = "wip" , githubaccount = "perez
 
 
 #------- PKGDOWN
+devtools::install_github("hadley/pkgdown")
+pkgdown::build_site()

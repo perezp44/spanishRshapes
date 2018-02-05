@@ -14,8 +14,8 @@
 [![Last-changedate](https://img.shields.io/badge/last%20change-2018--02--06-yellowgreen.svg)](/commits/master)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-spanishRshapes <img src="data-raw/scripts_old-goo/imgfile2.png" align="right" />
-================================================================================
+spanishRshapes <img src="man/figures/imgfile2.png" align="right" />
+===================================================================
 
 The goal of spanishRshapes is: facilitar el uso de datos de limites territoriales españoles en R. Contiene ficheros de datos para los lindes de: CC.AA. provincias y municipios. Los datos proviene del del [Instituto Geográfico Nacional](http://www.ign.es/web/ign/portal), concretamente del [centro de descargas](http://centrodedescargas.cnig.es/CentroDescargas/index.jsp). Una vez en el centro de descargas, hay que ir a `Información geográfica de referencia` y luego a `Lineas límite municipales`
 
@@ -24,7 +24,7 @@ Conuntos de datos
 
 `spanishRshapes` es un package de datos. Concretamente contiene los siguientes conjuntos de datos:
 
--   **IGN\_CCAA\_17**: lindes/polígonos/shapes de las 17 CC.AA españolas (+ Ceuta y Melilal). \[19 rows y 11 variables\]
+-   **IGN\_CCAA\_17**: lindes/polígonos/shapes de las 17 CC.AA españolas (+ Ceuta y Melilla). \[19 rows y 11 variables\]
 
 -   **IGN\_prov\_17**: lindes/polígonos/shapes de las provincias españolas (52 rows and 13 variables)
 
@@ -33,4 +33,15 @@ Conuntos de datos
 Formato de datos
 ================
 
-Los datos estan en spatial-df. Se abren con el paquete `sf`
+Los datos estan en spatial-df.
+
+Uso
+===
+
+Para cargar los lindes provinciales:
+
+``` r
+devtools::install_github("perezp44/spanishRshapes")
+library(spanishRshapes)
+lindes_prov <- IGN_prov_17
+```
