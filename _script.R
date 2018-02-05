@@ -46,6 +46,9 @@ use_build_ignore("_script.R")
 use_git(message = "Primer commit")           #- activa GIT. se reinicia RStudio, asi q has de volver a hacer library(usethis)
 
 
+
+#---------------------------- GITHUB
+library(usethis)
 use_github(protocol = "https")
 use_github_labels()  #- labelling issues
 use_github_links()   #- añade links en la file DESCRIPTION
