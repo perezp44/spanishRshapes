@@ -3,25 +3,23 @@
 \docType{data}
 \name{IGN_CCAA_17s}
 \alias{IGN_CCAA_17s}
-\title{LINDES del IGN para CC.AA (SPAIN)}
-\format{A data frame with 52 rows and 4 variables:
+\title{LINDES del IGN para CC.AA (SPAIN) (version short)}
+\format{A sf-data frame with 19 rows and 4 variables:
 \itemize{
-\item CODAUTO: Código de la C.A.
-\item CCAA: Nombre de la C.A.
-\item CPRO: Código de la provincia.
-\item PROVINCIA: Nombre de la provincia.
+\item INECodCCAA: Código INE de la C.A (Galicia = 12)
+\item NATCODE: Cogigo del IGN (Galicia = 34120000000)
+\item NombreCCAA: Nombre de la CC.AA (INE)
+\item geometry: la geometría
 }}
 \source{
-\url{http://www.ine.es}
-\url{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177031&menu=ultiDatos&idp=1254734710990}
+\url{http://centrodedescargas.cnig.es/CentroDescargas/index.jsp}
 }
 \usage{
 IGN_CCAA_17s
 }
 \description{
-Codigos y nombres oficiales de las provincias y CCAA (SPAIN). Sacados del INE.
-52 provincias (51 = Ceuta y 52 = Melilla).
-19 CC.AA (18 = Ceuta y 19 = Melilla).
+Poligonos/geometrias/shapes de las provincias  CC.AA. (SPAIN). Sacados del IGN
+19 CC.AA (18 = Ceuta y 19 = Melilla). Solo 4 variables
 }
 \examples{
 \dontrun{

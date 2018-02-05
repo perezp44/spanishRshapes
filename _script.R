@@ -90,22 +90,39 @@ devtools::document()   #- procesa los roxygen comments y las vignettes
 
 
 devtools::build()
-#------------------------------
+
+
+
+#------------------------------ USAR el pkg
+
+
+
+# devtools::install_github("perezp44/spanishRshapes")
 library(spanishRshapes)
+library(tidyverse)
 
-aa <- cod_INE_prov
-
-ls("package:spanishRshapes", all = TRUE) #- ves lo que hay en mypkgDataforblog
 aa <- ls("package:spanishRshapes", all = TRUE) %>% as.data.frame()#- ves lo que hay en mypkgDataforblog
-
-
 help(package = spanishRshapes)
-??pjppkgRdata01
+bb <- IGN_mun_17s
+names(bb)
+cc <- bb %>% filter(NombreMuni  == "Pancrudo")
+bb[bb$NombreCCAA=="Galicia",]
 
-vignette(package = "spanishRshapes")
+#--------------------   Github
+# git remote add origin https://github.com/perezp44/mypkgfordata.git
+# cd c:/Users/perezp/Desktop/a_GIT_2016a/mypkgDataforblog
+# git add -A    # stages all files
+# git commit --all --message "Creando el REPO"
+# git push -u origin master
 
-bb <- cod_muni_pjp_17
 
+#----------------- Licencia
+# En esta pagina pone esto de licencia
+# http://opendata.esri.es/datasets/d8854f26fd5c4baab08337ca0f3aff6f_0#
+#Licencia (compatible con CC-BY 4.0) ampara el uso libre y gratuito para cualquier propósito legítimo,
+#siendo la única estricta obligación la de reconocer y mencionar el origen y propiedad de los productos
+#y servicios de información geográfica licenciados como del IGN según se indica en la licencia.
+#Créditos: © Instituto Geográfico Nacional
 
 
 

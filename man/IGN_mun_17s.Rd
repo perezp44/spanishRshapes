@@ -3,25 +3,28 @@
 \docType{data}
 \name{IGN_mun_17s}
 \alias{IGN_mun_17s}
-\title{LINDES del IGN para MUNICIPIOS (SPAIN)}
-\format{A data frame with 52 rows and 4 variables:
+\title{LINDES del IGN para Municipios (SPAIN) (short version)}
+\format{A data frame with 8211 rows and 7 variables:
 \itemize{
-\item CODAUTO: Código de la C.A.
-\item CCAA: Nombre de la C.A.
-\item CPRO: Código de la provincia.
-\item PROVINCIA: Nombre de la provincia.
+\item INECodMuni: Codigo INE municipio (5 digitos (Pancrudo = 44177))
+\item NATCODE: Codigo IGN (Pancrudo = 34024444177)
+\item NombreMuni: Nombre municipio (INE)
+\item INECodProv: Codigo provincial(INE)(Pancrudo = 44)
+\item INECodCCAA: Codigo CCAA(INE) (Pancrudo = 02)
+\item NombreProv: Nombre provincia (INE)
+\item NombreCCAA: Nombre de la C.A (INE)
+\item geometry: la geometria
 }}
 \source{
-\url{http://www.ine.es}
-\url{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177031&menu=ultiDatos&idp=1254734710990}
+\url{http://centrodedescargas.cnig.es/CentroDescargas/index.jsp}
 }
 \usage{
 IGN_mun_17s
 }
 \description{
-Codigos y nombres oficiales de las provincias y CCAA (SPAIN). Sacados del INE.
-52 provincias (51 = Ceuta y 52 = Melilla).
-19 CC.AA (18 = Ceuta y 19 = Melilla).
+Poligonos/geometrias/shapes de los municipios  CC.AA. (SPAIN). Sacados del IGN
+Codigos y nombres oficiales de los municipios (SPAIN). Sacados del INE.
+8.124 municipios + 81 condominio + 6 islitas alrededor de La Gomera = 8.211 rows
 }
 \examples{
 \dontrun{

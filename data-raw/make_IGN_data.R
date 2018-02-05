@@ -94,7 +94,7 @@ for (i in islitas_Gomera) {
 
 INE_mun <-  cod_muni_pjp_17   #- 8124 municipios (1-enero-2017)
 IGN_mun_17 <- left_join(mun_todas, INE_mun) %>% select(INECodMuni, NATCODE, NAMEUNIT, NombreMuni, NombreProv, NombreCCAA, everything())
-IGN_mun_17s <- IGN_mun_17 %>% select(INECodMuni, NATCODE, INECodProv, INECodCCAA, NombreProv, NombreCCAA, geometry)
+IGN_mun_17s <- IGN_mun_17 %>% select(INECodMuni, NATCODE, NombreMuni, INECodProv, INECodCCAA, NombreProv, NombreCCAA, geometry)
 
 # use_data(IGN_mun_17) #- lo guarde con esta linea que usa el pkg usethis el 2018-02-04
 # use_data(IGN_mun_17s) #- lo guarde con esta linea que usa el pkg usethis el 2018-02-04

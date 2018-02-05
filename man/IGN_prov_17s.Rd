@@ -3,29 +3,30 @@
 \docType{data}
 \name{IGN_prov_17s}
 \alias{IGN_prov_17s}
-\title{LINDES del IGN para PROVINCIAS (SPAIN)}
-\format{A data frame with 52 rows and 4 variables:
+\title{LINDES del IGN para PROVINCIAS (SPAIN) (Short version)}
+\format{A sf-data frame with 52 rows and 6 variables:
 \itemize{
-\item CODAUTO: Código de la C.A.
-\item CCAA: Nombre de la C.A.
-\item CPRO: Código de la provincia.
-\item PROVINCIA: Nombre de la provincia.
+\item INECodProv: Código provincia (INE) (Teruel = 44)
+\item NATCODE: Code IGN (Teruel = 34024400000)
+\item NombreProv: Nombre de la provincia (INE)
+\item NombreCCAA: Nombre C.A (INE)
+\item INECodCCAA: Código de la C.A (INE)
+\item geometry: la geometria
 }}
 \source{
-\url{http://www.ine.es}
-\url{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177031&menu=ultiDatos&idp=1254734710990}
+\url{http://centrodedescargas.cnig.es/CentroDescargas/index.jsp}
 }
 \usage{
 IGN_prov_17s
 }
 \description{
+Poligonos/geometrias/shapes de las provincias  CC.AA. (SPAIN). Sacados del IGN
 Codigos y nombres oficiales de las provincias y CCAA (SPAIN). Sacados del INE.
 52 provincias (51 = Ceuta y 52 = Melilla).
-19 CC.AA (18 = Ceuta y 19 = Melilla).
 }
 \examples{
 \dontrun{
- df <- IGN_prov_17s
+ df <- IGN_prov_17
 }
 
 }
