@@ -49,12 +49,17 @@ use_git(message = "Primer commit")           #- activa GIT. se reinicia RStudio,
 
 #---------------------------- GITHUB
 library(usethis)
-use_github(protocol = "https")
+use_github(protocol = "https") #- AQUI sale un error
 use_github_labels()  #- labelling issues
 use_github_links()   #- añade links en la file DESCRIPTION
 
 
 
+#--------------------- te vas a TERMINAL y haces
+# git add -A
+# git commit --all --message "todo a Github"
+# git push -u origin master
+#
 
 
 
