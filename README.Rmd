@@ -1,6 +1,23 @@
 ---
 output: github_document
 ---
+ 
+---
+ 
+ 
+---
+ 
+[![Project Status: WIP ? Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
+ 
+---
+ 
+[![minimal R version](https://img.shields.io/badge/R%3E%3D-NA-6666ff.svg)](https://cran.r-project.org/)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/spanishRshapes)](https://cran.r-project.org/package=spanishRshapes)
+[![packageversion](https://img.shields.io/badge/Package%20version-0.1.0-orange.svg?style=flat-square)](commits/master)
+ 
+---
+ 
+[![Last-changedate](https://img.shields.io/badge/last%20change-`r gsub('-', '--', Sys.Date())`-yellowgreen.svg)](/commits/master)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -12,7 +29,7 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-# spanishRshapes
+# spanishRshapes <img src="data-raw/scripts_old-goo/imgfile2.png" align="right" />
 
 The goal of spanishRshapes is: facilitar el uso de datos de limites territoriales españoles en R. Contiene  ficheros de datos para los lindes de: CC.AA. provincias y municipios. Los datos proviene del del [Instituto Geográfico Nacional](http://www.ign.es/web/ign/portal), concretamente del [centro de descargas](http://centrodedescargas.cnig.es/CentroDescargas/index.jsp). Una vez en el centro de descargas, hay que ir a `Información geográfica de referencia` y luego a `Lineas límite municipales`
 

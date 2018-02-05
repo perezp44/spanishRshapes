@@ -2,6 +2,7 @@ Package: spanishRshapes
 Type: Package
 Title: Provides some Spanish Boundary data (shapes) as 'sf'-Ready Data Frames
 Version: 0.1.0
+Depends: 	R (>= 3.1)
 Authors@R: person("Pedro J.", "Perez", , "pedro.j.perez@uv.es", c("aut", "cre"))
 Maintainer: Pedro J. Perez <pjperez@uv.es>
 Description: spanishRshapes package provides Spanish Boundary data (shapes) as 'sf'-Ready Data Frames. Boundary Data comes from

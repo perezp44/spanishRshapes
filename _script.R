@@ -126,3 +126,12 @@ bb[bb$NombreCCAA=="Galicia",]
 
 
 
+#------- BADGES
+install.packages("badgecreatr")
+badgecreatr::badgeplacer( githubaccount = "perezp44",githubrepo = "spanishRshapes", branch = "master")
+badgecreatr::badgeplacer(location = ".", status = "wip" , githubaccount = "perezp44",githubrepo = "spanishRshapes", branch = "master")
+
+
+
+
+#------- PKGDOWN
