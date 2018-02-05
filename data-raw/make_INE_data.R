@@ -5,7 +5,7 @@ library(readr)
 library(here)
 library(personal.pjp)
 library(usethis)
-library(usethis)
+
 
 #' (2018-02-04)-----------------------------------------------------
 
