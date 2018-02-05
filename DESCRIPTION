@@ -15,3 +15,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/perezp44/spanishRshapes
+BugReports: https://github.com/perezp44/spanishRshapes/issues
