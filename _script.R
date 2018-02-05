@@ -75,17 +75,19 @@ use_build_ignore("./vignettes/info_vignettes.txt")
 
 
 
-
-
-
 #------------------------------------------------------
 #------------------------------------------------------ PARA DESPUES CORRERLO
 #------------------------------------------------------
 
 
-devtools::build_vignettes()
+devtools::build_vignettes()  #- viñetas
 
-devtools::check()
+devtools::check()            #- chequea
+
+
+devtools::document()   #- procesa los roxygen comments y las vignettes
+
+
 
 devtools::build()
 #------------------------------
