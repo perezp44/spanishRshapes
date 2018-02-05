@@ -61,6 +61,16 @@ use_github_links()   #- añade links en la file DESCRIPTION
 # git push -u origin master
 #
 
+#--------------------------- Ahora ya toca meter datos y arreglar documentación
+#--------------------------- Ahora ya toca meter datos y arreglar documentación
+
+
+#--------------------  README
+#------ has de knittear README.Rmd para que aparezca README.md q es la que se muestra en Github por defecto
+
+
+#--------------------- LA VIGNETTE
+use_build_ignore("./vignettes/info_vignettes.txt")
 
 
 

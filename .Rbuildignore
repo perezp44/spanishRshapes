@@ -4,3 +4,4 @@
 ^LICENSE\.md$
 ^data-raw$
 ^_script\.R$
+^\./vignettes/info_vignettes\.txt$
