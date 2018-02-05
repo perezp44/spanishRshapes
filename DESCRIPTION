@@ -1,0 +1,17 @@
+Package: spanishRshapes
+Type: Package
+Title: Provides some Spanish Boundary data (shapes) as 'sf'-Ready Data Frames
+Version: 0.1.0
+Authors@R: person("Pedro J.", "Perez", , "pedro.j.perez@uv.es", c("aut", "cre"))
+Maintainer: Pedro J. Perez <pjperez@uv.es>
+Description: Provides Spanish Boundary data (shapes) as 'sf'-Ready Data Frames. Boundary Data comes from
+  Instituto Goegráfico Nacional (IGN) and some codes from INE
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
