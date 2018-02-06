@@ -6,8 +6,8 @@
 \title{LINDES del IGN para CC.AA (SPAIN)}
 \format{A sf-data frame with 19 rows and 11 variables:
 \itemize{
-\item INECodCCAA: Código INE de la C.A (Galicia = 12)
-\item NATCODE: Cogigo del IGN (Galicia = 34120000000)
+\item INECodCCAA: Codigo INE de la C.A (Galicia = 12)
+\item NATCODE: Codigo del IGN (Galicia = 34120000000)
 \item NAMEUNIT: Nombre de la CC.AA (IGN)
 \item NombreCCAA: Nombre de la CC.AA (INE)
 \item INSPIREID: IGN code (Galicia = ES.IGN.SIGLIM34120000000)

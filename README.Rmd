@@ -31,7 +31,7 @@ knitr::opts_chunk$set(
 ```
 # spanishRshapes <img src="man/figures/imgfile2.png" align="right" />
 
-The goal of spanishRshapes is: facilitar el uso de datos de limites territoriales españoles en R. Contiene  ficheros de datos para los lindes de: CC.AA. provincias y municipios. Los datos proviene del del [Instituto Geográfico Nacional](http://www.ign.es/web/ign/portal), concretamente del [centro de descargas](http://centrodedescargas.cnig.es/CentroDescargas/index.jsp). Una vez en el centro de descargas, hay que ir a `Información geográfica de referencia` y luego a `Lineas límite municipales`
+The goal of spanishRshapes es facilitar el uso de datos de limites territoriales españoles en R. Contiene  ficheros de datos para los lindes de: CC.AA. provincias y municipios. Los datos proviene del del [Instituto Geográfico Nacional](http://www.ign.es/web/ign/portal), concretamente del [centro de descargas](http://centrodedescargas.cnig.es/CentroDescargas/index.jsp). Una vez en el centro de descargas, hay que ir a `Información geográfica de referencia` y luego a `Lineas límite municipales`
 
 # Conuntos de datos
 

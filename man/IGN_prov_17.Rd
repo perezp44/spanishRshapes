@@ -6,7 +6,7 @@
 \title{LINDES del IGN para PROVINCIAS (SPAIN)}
 \format{A sf-data frame with 52 rows and 13 variables:
 \itemize{
-\item INECodProv: Código provincia (INE) (Teruel = 44)
+\item INECodProv: Codigo provincia (INE) (Teruel = 44)
 \item NATCODE: Code IGN (Teruel = 34024400000)
 \item NAMEUNIT: Nombre de la provincia (IGN)
 \item NombreProv: Nombre de la provincia (INE)
@@ -17,7 +17,7 @@
 \item CODNUT1: (Teruel = ES2)
 \item CODNUT2: (Teruel = ES24)
 \item CODNUT3: NA
-\item INECodCCAA: Código de la C.A (INE)
+\item INECodCCAA: Codigo de la C.A (INE)
 \item geometry: la geometria
 }}
 \source{

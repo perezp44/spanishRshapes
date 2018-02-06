@@ -6,10 +6,10 @@
 \title{LINDES del IGN para CC.AA (SPAIN) (version short)}
 \format{A sf-data frame with 19 rows and 4 variables:
 \itemize{
-\item INECodCCAA: Código INE de la C.A (Galicia = 12)
-\item NATCODE: Cogigo del IGN (Galicia = 34120000000)
+\item INECodCCAA: Codigo INE de la C.A (Galicia = 12)
+\item NATCODE: Codigo del IGN (Galicia = 34120000000)
 \item NombreCCAA: Nombre de la CC.AA (INE)
-\item geometry: la geometría
+\item geometry: la geometria
 }}
 \source{
 \url{http://centrodedescargas.cnig.es/CentroDescargas/index.jsp}
